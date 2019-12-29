@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xtv-bD-fGI">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Grab India-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="GrabIndia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aZ5-F7-XfL">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TableViewCell" rowHeight="61" id="Hlz-be-pTZ" customClass="TableViewCell" customModule="GrabIndia" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="61"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hlz-be-pTZ" id="M0E-hs-INV">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="61"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Z2-nd-7nl">
+                                                    <rect key="frame" x="16" y="10" width="133" height="41"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4cc-dp-lOu">
+                                                    <rect key="frame" x="157" y="14.5" width="100" height="32"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="100" id="Iip-dc-K0T"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <state key="normal" title="GrabPay"/>
+                                                    <connections>
+                                                        <action selector="proccessingButtonTapped:" destination="Hlz-be-pTZ" eventType="touchUpInside" id="8To-PH-Irl"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rX6-oG-bxf">
+                                                    <rect key="frame" x="265" y="10" width="133" height="41"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="rX6-oG-bxf" firstAttribute="leading" secondItem="4cc-dp-lOu" secondAttribute="trailing" constant="8" id="4Fz-bJ-5lJ"/>
+                                                <constraint firstItem="4cc-dp-lOu" firstAttribute="centerX" secondItem="M0E-hs-INV" secondAttribute="centerX" id="4UU-Mi-mcA"/>
+                                                <constraint firstAttribute="trailing" secondItem="rX6-oG-bxf" secondAttribute="trailing" constant="16" id="5zp-RX-nmK"/>
+                                                <constraint firstItem="1Z2-nd-7nl" firstAttribute="top" secondItem="M0E-hs-INV" secondAttribute="top" constant="10" id="9Fa-kL-SEa"/>
+                                                <constraint firstItem="1Z2-nd-7nl" firstAttribute="leading" secondItem="M0E-hs-INV" secondAttribute="leading" constant="16" id="ID5-7R-FNg"/>
+                                                <constraint firstAttribute="bottom" secondItem="rX6-oG-bxf" secondAttribute="bottom" constant="10" id="Kbx-0L-mC1"/>
+                                                <constraint firstItem="4cc-dp-lOu" firstAttribute="leading" secondItem="1Z2-nd-7nl" secondAttribute="trailing" constant="8" id="PXV-59-ZOD"/>
+                                                <constraint firstItem="rX6-oG-bxf" firstAttribute="top" secondItem="M0E-hs-INV" secondAttribute="top" constant="10" id="XeN-OT-wBq"/>
+                                                <constraint firstAttribute="bottom" secondItem="1Z2-nd-7nl" secondAttribute="bottom" constant="10" id="esp-2r-etC"/>
+                                                <constraint firstItem="4cc-dp-lOu" firstAttribute="centerY" secondItem="M0E-hs-INV" secondAttribute="centerY" id="oOt-hG-zIO"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="gPaybutton" destination="4cc-dp-lOu" id="Bx1-Xb-UkV"/>
+                                            <outlet property="indexLabel" destination="1Z2-nd-7nl" id="Ybl-dL-kwL"/>
+                                            <outlet property="proceesingLabel" destination="rX6-oG-bxf" id="43Q-he-5G1"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="8si-ca-KbG"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="YB8-Pe-UMF"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aZ5-F7-XfL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="BJ2-NZ-R0g"/>
+                            <constraint firstItem="aZ5-F7-XfL" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Qc1-zX-EVV"/>
+                            <constraint firstItem="aZ5-F7-XfL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="a2z-0g-uNS"/>
+                            <constraint firstItem="aZ5-F7-XfL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ifv-Qv-XUA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Grab India" id="QvN-Yd-3pU"/>
+                    <connections>
+                        <outlet property="tableview" destination="aZ5-F7-XfL" id="UEo-lJ-9eB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="133.92857142857142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JuP-Rv-8pg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xtv-bD-fGI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NTr-nx-zN4">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="EPb-Qp-7IF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TaX-Y8-d0u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27984B2023A58EC8002DFE92 /* AssignMent.png in Resources */ = {isa = PBXBuildFile; fileRef = 27984B1E23A58EC8002DFE92 /* AssignMent.png */; };
+		279AEE7923A0ECFC00635021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279AEE7823A0ECFC00635021 /* AppDelegate.swift */; };
+		279AEE7B23A0ECFC00635021 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279AEE7A23A0ECFC00635021 /* SceneDelegate.swift */; };
+		279AEE7D23A0ECFC00635021 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279AEE7C23A0ECFC00635021 /* ViewController.swift */; };
+		279AEE8023A0ECFC00635021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279AEE7E23A0ECFC00635021 /* Main.storyboard */; };
+		279AEE8323A0ECFC00635021 /* GrabIndia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 279AEE8123A0ECFC00635021 /* GrabIndia.xcdatamodeld */; };
+		279AEE8523A0ECFD00635021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279AEE8423A0ECFD00635021 /* Assets.xcassets */; };
+		279AEE8823A0ECFD00635021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279AEE8623A0ECFD00635021 /* LaunchScreen.storyboard */; };
+		279AEE9323A0ECFD00635021 /* GrabIndiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279AEE9223A0ECFD00635021 /* GrabIndiaTests.swift */; };
+		279AEE9E23A0ECFE00635021 /* GrabIndiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279AEE9D23A0ECFE00635021 /* GrabIndiaUITests.swift */; };
+		279AEEAC23A0EDEC00635021 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279AEEAB23A0EDEC00635021 /* TableViewCell.swift */; };
+		27A14E7723A161650042E231 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A14E7623A161650042E231 /* Payment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		279AEE8F23A0ECFD00635021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 279AEE6D23A0ECFC00635021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 279AEE7423A0ECFC00635021;
+			remoteInfo = GrabIndia;
+		};
+		279AEE9A23A0ECFE00635021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 279AEE6D23A0ECFC00635021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 279AEE7423A0ECFC00635021;
+			remoteInfo = GrabIndia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27984B1E23A58EC8002DFE92 /* AssignMent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AssignMent.png; sourceTree = "<group>"; };
+		279AEE7523A0ECFC00635021 /* GrabIndia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrabIndia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		279AEE7823A0ECFC00635021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		279AEE7A23A0ECFC00635021 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		279AEE7C23A0ECFC00635021 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		279AEE7F23A0ECFC00635021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		279AEE8223A0ECFC00635021 /* GrabIndia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GrabIndia.xcdatamodel; sourceTree = "<group>"; };
+		279AEE8423A0ECFD00635021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		279AEE8723A0ECFD00635021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		279AEE8923A0ECFD00635021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279AEE8E23A0ECFD00635021 /* GrabIndiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrabIndiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		279AEE9223A0ECFD00635021 /* GrabIndiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrabIndiaTests.swift; sourceTree = "<group>"; };
+		279AEE9423A0ECFD00635021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279AEE9923A0ECFE00635021 /* GrabIndiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrabIndiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		279AEE9D23A0ECFE00635021 /* GrabIndiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrabIndiaUITests.swift; sourceTree = "<group>"; };
+		279AEE9F23A0ECFE00635021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279AEEAB23A0EDEC00635021 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		27A14E7623A161650042E231 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		279AEE7223A0ECFC00635021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279AEE8B23A0ECFD00635021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279AEE9623A0ECFE00635021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272B599A23A17298001414A6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				279AEE8423A0ECFD00635021 /* Assets.xcassets */,
+				279AEE7E23A0ECFC00635021 /* Main.storyboard */,
+				279AEE7823A0ECFC00635021 /* AppDelegate.swift */,
+				279AEE7A23A0ECFC00635021 /* SceneDelegate.swift */,
+				279AEE7C23A0ECFC00635021 /* ViewController.swift */,
+				279AEEAB23A0EDEC00635021 /* TableViewCell.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		27984B1C23A58EC7002DFE92 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				27984B1E23A58EC8002DFE92 /* AssignMent.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		279AEE6C23A0ECFC00635021 = {
+			isa = PBXGroup;
+			children = (
+				279AEE7723A0ECFC00635021 /* GrabIndia */,
+				279AEE9123A0ECFD00635021 /* GrabIndiaTests */,
+				279AEE9C23A0ECFE00635021 /* GrabIndiaUITests */,
+				279AEE7623A0ECFC00635021 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		279AEE7623A0ECFC00635021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				279AEE7523A0ECFC00635021 /* GrabIndia.app */,
+				279AEE8E23A0ECFD00635021 /* GrabIndiaTests.xctest */,
+				279AEE9923A0ECFE00635021 /* GrabIndiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		279AEE7723A0ECFC00635021 /* GrabIndia */ = {
+			isa = PBXGroup;
+			children = (
+				27984B1C23A58EC7002DFE92 /* Images */,
+				27A14E7523A161550042E231 /* Model */,
+				272B599A23A17298001414A6 /* Resource */,
+				279AEE8623A0ECFD00635021 /* LaunchScreen.storyboard */,
+				279AEE8923A0ECFD00635021 /* Info.plist */,
+				279AEE8123A0ECFC00635021 /* GrabIndia.xcdatamodeld */,
+			);
+			path = GrabIndia;
+			sourceTree = "<group>";
+		};
+		279AEE9123A0ECFD00635021 /* GrabIndiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				279AEE9223A0ECFD00635021 /* GrabIndiaTests.swift */,
+				279AEE9423A0ECFD00635021 /* Info.plist */,
+			);
+			path = GrabIndiaTests;
+			sourceTree = "<group>";
+		};
+		279AEE9C23A0ECFE00635021 /* GrabIndiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				279AEE9D23A0ECFE00635021 /* GrabIndiaUITests.swift */,
+				279AEE9F23A0ECFE00635021 /* Info.plist */,
+			);
+			path = GrabIndiaUITests;
+			sourceTree = "<group>";
+		};
+		27A14E7523A161550042E231 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27A14E7623A161650042E231 /* Payment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		279AEE7423A0ECFC00635021 /* GrabIndia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279AEEA223A0ECFE00635021 /* Build configuration list for PBXNativeTarget "GrabIndia" */;
+			buildPhases = (
+				279AEE7123A0ECFC00635021 /* Sources */,
+				279AEE7223A0ECFC00635021 /* Frameworks */,
+				279AEE7323A0ECFC00635021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrabIndia;
+			productName = GrabIndia;
+			productReference = 279AEE7523A0ECFC00635021 /* GrabIndia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		279AEE8D23A0ECFD00635021 /* GrabIndiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279AEEA523A0ECFE00635021 /* Build configuration list for PBXNativeTarget "GrabIndiaTests" */;
+			buildPhases = (
+				279AEE8A23A0ECFD00635021 /* Sources */,
+				279AEE8B23A0ECFD00635021 /* Frameworks */,
+				279AEE8C23A0ECFD00635021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				279AEE9023A0ECFD00635021 /* PBXTargetDependency */,
+			);
+			name = GrabIndiaTests;
+			productName = GrabIndiaTests;
+			productReference = 279AEE8E23A0ECFD00635021 /* GrabIndiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		279AEE9823A0ECFE00635021 /* GrabIndiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279AEEA823A0ECFE00635021 /* Build configuration list for PBXNativeTarget "GrabIndiaUITests" */;
+			buildPhases = (
+				279AEE9523A0ECFE00635021 /* Sources */,
+				279AEE9623A0ECFE00635021 /* Frameworks */,
+				279AEE9723A0ECFE00635021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				279AEE9B23A0ECFE00635021 /* PBXTargetDependency */,
+			);
+			name = GrabIndiaUITests;
+			productName = GrabIndiaUITests;
+			productReference = 279AEE9923A0ECFE00635021 /* GrabIndiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		279AEE6D23A0ECFC00635021 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Gudisi, Manjunath";
+				TargetAttributes = {
+					279AEE7423A0ECFC00635021 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					279AEE8D23A0ECFD00635021 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 279AEE7423A0ECFC00635021;
+					};
+					279AEE9823A0ECFE00635021 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 279AEE7423A0ECFC00635021;
+					};
+				};
+			};
+			buildConfigurationList = 279AEE7023A0ECFC00635021 /* Build configuration list for PBXProject "GrabIndia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 279AEE6C23A0ECFC00635021;
+			productRefGroup = 279AEE7623A0ECFC00635021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				279AEE7423A0ECFC00635021 /* GrabIndia */,
+				279AEE8D23A0ECFD00635021 /* GrabIndiaTests */,
+				279AEE9823A0ECFE00635021 /* GrabIndiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		279AEE7323A0ECFC00635021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279AEE8823A0ECFD00635021 /* LaunchScreen.storyboard in Resources */,
+				279AEE8523A0ECFD00635021 /* Assets.xcassets in Resources */,
+				27984B2023A58EC8002DFE92 /* AssignMent.png in Resources */,
+				279AEE8023A0ECFC00635021 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279AEE8C23A0ECFD00635021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279AEE9723A0ECFE00635021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		279AEE7123A0ECFC00635021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279AEEAC23A0EDEC00635021 /* TableViewCell.swift in Sources */,
+				279AEE7D23A0ECFC00635021 /* ViewController.swift in Sources */,
+				279AEE7923A0ECFC00635021 /* AppDelegate.swift in Sources */,
+				27A14E7723A161650042E231 /* Payment.swift in Sources */,
+				279AEE7B23A0ECFC00635021 /* SceneDelegate.swift in Sources */,
+				279AEE8323A0ECFC00635021 /* GrabIndia.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279AEE8A23A0ECFD00635021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279AEE9323A0ECFD00635021 /* GrabIndiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		279AEE9523A0ECFE00635021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279AEE9E23A0ECFE00635021 /* GrabIndiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		279AEE9023A0ECFD00635021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 279AEE7423A0ECFC00635021 /* GrabIndia */;
+			targetProxy = 279AEE8F23A0ECFD00635021 /* PBXContainerItemProxy */;
+		};
+		279AEE9B23A0ECFE00635021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 279AEE7423A0ECFC00635021 /* GrabIndia */;
+			targetProxy = 279AEE9A23A0ECFE00635021 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		279AEE7E23A0ECFC00635021 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279AEE7F23A0ECFC00635021 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		279AEE8623A0ECFD00635021 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279AEE8723A0ECFD00635021 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		279AEEA023A0ECFE00635021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		279AEEA123A0ECFE00635021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		279AEEA323A0ECFE00635021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNZ823FRWW;
+				INFOPLIST_FILE = GrabIndia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.interviewPreparation.GrabIndia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		279AEEA423A0ECFE00635021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNZ823FRWW;
+				INFOPLIST_FILE = GrabIndia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.interviewPreparation.GrabIndia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		279AEEA623A0ECFE00635021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNZ823FRWW;
+				INFOPLIST_FILE = GrabIndiaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.interviewPreparation.GrabIndiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrabIndia.app/GrabIndia";
+			};
+			name = Debug;
+		};
+		279AEEA723A0ECFE00635021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNZ823FRWW;
+				INFOPLIST_FILE = GrabIndiaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.interviewPreparation.GrabIndiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrabIndia.app/GrabIndia";
+			};
+			name = Release;
+		};
+		279AEEA923A0ECFE00635021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNZ823FRWW;
+				INFOPLIST_FILE = GrabIndiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.interviewPreparation.GrabIndiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrabIndia;
+			};
+			name = Debug;
+		};
+		279AEEAA23A0ECFE00635021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNZ823FRWW;
+				INFOPLIST_FILE = GrabIndiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.interviewPreparation.GrabIndiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrabIndia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		279AEE7023A0ECFC00635021 /* Build configuration list for PBXProject "GrabIndia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279AEEA023A0ECFE00635021 /* Debug */,
+				279AEEA123A0ECFE00635021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279AEEA223A0ECFE00635021 /* Build configuration list for PBXNativeTarget "GrabIndia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279AEEA323A0ECFE00635021 /* Debug */,
+				279AEEA423A0ECFE00635021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279AEEA523A0ECFE00635021 /* Build configuration list for PBXNativeTarget "GrabIndiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279AEEA623A0ECFE00635021 /* Debug */,
+				279AEEA723A0ECFE00635021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279AEEA823A0ECFE00635021 /* Build configuration list for PBXNativeTarget "GrabIndiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279AEEA923A0ECFE00635021 /* Debug */,
+				279AEEAA23A0ECFE00635021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		279AEE8123A0ECFC00635021 /* GrabIndia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				279AEE8223A0ECFC00635021 /* GrabIndia.xcdatamodel */,
+			);
+			currentVersion = 279AEE8223A0ECFC00635021 /* GrabIndia.xcdatamodel */;
+			path = GrabIndia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 279AEE6D23A0ECFC00635021 /* Project object */;
+}
